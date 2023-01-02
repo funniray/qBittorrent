@@ -70,7 +70,6 @@ jobs:
             -B build \
             -G "Ninja" \
             -DCMAKE_BUILD_TYPE=RelWithDebInfo \
-            -DCMAKE_EXPORT_COMPILE_COMMANDS=ON \
             -DCMAKE_INSTALL_PREFIX="/usr" \
             -DTESTING=ON \
             -DVERBOSE_CONFIGURE=ON \
@@ -87,7 +86,6 @@ jobs:
             -B build \
             -G "Ninja" \
             -DCMAKE_BUILD_TYPE=RelWithDebInfo \
-            -DCMAKE_EXPORT_COMPILE_COMMANDS=ON \
             -DCMAKE_INSTALL_PREFIX="/usr" \
             -DQT6=ON \
             -DTESTING=ON \
