@@ -95,7 +95,7 @@ jobs:
             -DCMAKE_INSTALL_PREFIX="${{ env.libtorrent_path }}" `
             -DCMAKE_TOOLCHAIN_FILE="${{ env.RUNVCPKG_VCPKG_ROOT }}/scripts/buildsystems/vcpkg.cmake" `
             -DBOOST_ROOT="${{ env.boost_path }}" `
-            -DBUILD_SHARED_LIBS=OFF `
+            -DBUILD_SHARED_LIBS=ON `
             -Dwebtorrent=ON `
             -Ddeprecated-functions=OFF `
             -Dstatic_runtime=ON `
